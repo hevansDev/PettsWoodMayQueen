@@ -15,7 +15,7 @@ We're thrilled to announce the launch of our new website! This digital space wil
 ## What's New?
 
 Our new website brings you:
-- Up-to-date information about the group and Petts Wood May Day
+- Up-to-date information about the group and Petts Wood May Fayre
 - Easy access to important announcements
 
 
