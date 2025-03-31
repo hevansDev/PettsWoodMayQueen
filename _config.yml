@@ -22,7 +22,7 @@ heroimage: /assets/images/hero.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: info@pettswoodmayqueen.org.uk
+email: jenniekevans@hotmail.com
 facebook_username: newpettswoodmayfayre
 twitter_username: /
 instagram_username: /
@@ -41,12 +41,13 @@ google-analytics:
 disqus-shortname: 
 
 # Name of the Author
-author-name: Petts Wood May Queen
+author-name: Petts Wood May Queen Committee
 # URL for the Image of the Author
-author-image: 
+author-image: /assets/images/author.png
 # 60 Words About the Author
-author-about: 
-author-url: 
+author-about: The Petts Wood May Queen is dedicated to preserving and celebrating this cherished tradition of the crowning of the May Queen, bringing together the community in a celebration of spring.
+# URL to the Author's Profile
+author-url: https://www.facebook.com/newpettswoodmayfayre
 
 # SASS
 sass:

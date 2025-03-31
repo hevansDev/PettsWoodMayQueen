@@ -6,33 +6,28 @@
             </h3>
             <p class="has-text-black is-size-6 mb-6">We'd love to hear from you! Whether you're interested in volunteering, sponsoring, or just want to learn more about the event.</p>
             
-            {% unless site.email == %}
-            <a id="contact-button" href="mailto:{{site.email}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fas fa-envelope"></i>Email the Committee
-            </a>
-            {% endunless %}
-            
-            {% unless site.facebook_username == %}
-            <a id="contact-button" href="https://facebook.com/{{site.facebook_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fab fa-facebook"></i>Follow us on Facebook
-            </a>
-            {% endunless %}
-
-            <hr>
-            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                Connect With Us
-            </h3>
-            <div class="column is-full is-size-3">
+            <div class="buttons is-centered">
+                {% unless site.email == %}
+                <a href="mailto:{{site.email}}"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold"
+                    target="_blank">
+                    <i class="fas fa-envelope"></i>Email the Committee
+                </a>
+                {% endunless %}
+                
                 {% unless site.facebook_username == %}
-                <a href="https://facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
+                <a href="https://facebook.com/{{site.facebook_username}}"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold"
+                    target="_blank">
+                    <i class="fab fa-facebook"></i>Follow us on Facebook
+                </a>
                 {% endunless %}
-                {% unless site.instagram_username ==  %}
-                <a href="https://instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
-                {% endunless %}
+
+                <a href="{{site.url}}{{site.baseurl}}/blog"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold"
+                    target="_blank">
+                    <i class="fas fa-newspaper"></i>Latest Updates
+                </a>
             </div>
         </div>
     </div>
